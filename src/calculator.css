@@ -1,0 +1,60 @@
+.calculatorContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #121a26;
+  color: rgb(126, 120, 120);
+}
+.calculatorContainer .calculator {
+  width: 350px;
+  height: 500px;
+  background: rgba(51, 52, 54, 0.3);
+  display: flex;
+  flex-direction: column;
+}
+.calculatorContainer .calculator button {
+  background-color: #121a26;
+  background: rgba(50, 54, 69, 0.1);
+  color: rgb(126, 120, 120);
+  font-size: 1.2rem;
+}
+.calculatorContainer .calculator .screen {
+  width: 100%;
+  height: 40%;
+  border: 1px solid rgb(54, 53, 56);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  overflow: hidden;
+}
+.calculatorContainer .calculator .firstLine .clear {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(54, 53, 56);
+}
+.calculatorContainer .calculator .eachParentElement {
+  width: 100%;
+  height: 15%;
+  display: flex;
+}
+.calculatorContainer .calculator .forEachElement {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(54, 53, 56);
+}
+.calculatorContainer .calculator .forEachElement:hover {
+  background-color: #121a26;
+  background: rgba(149, 150, 153, 0.1);
+  cursor: pointer;
+}/*# sourceMappingURL=calculator.css.map */
